@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'shopkeeper3',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'd496d0137f0c345770e056242dd4b3cb',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'bb63c9343d2f9014f51cfc6131f8b6a0',
+  'native_key' => 'OnSHKAfterClearCart',
+  'object' => '{"name":"OnSHKAfterClearCart","service":6,"groupname":"Shopkeeper3"}',
+);

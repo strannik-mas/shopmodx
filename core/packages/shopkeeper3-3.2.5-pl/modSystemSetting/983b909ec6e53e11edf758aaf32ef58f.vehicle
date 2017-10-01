@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'shopkeeper3',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '209abda1dd80ee2e8cf3bb74f45fb2e4',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '983b909ec6e53e11edf758aaf32ef58f',
+  'native_key' => 'shk3.currency',
+  'object' => '{"key":"shk3.currency","value":"\\u0440\\u0443\\u0431.","xtype":"textfield","namespace":"shopkeeper3","area":"","editedon":null}',
+);

@@ -1,0 +1,37 @@
+<!doctype html>
+<head>
+    <title>[[*pagetitle]] - [[++site_name]]</title>
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet"
+    <base href="[[++site_url]]" />
+</head>
+<body>
+    [[$menu]]
+    <div class="container">
+        <div class="row">
+            [[!getPage?
+                &elementClass=`modSnippet`
+                &element=`getProducts`
+            	&parents=`2`
+            	&includeTVs=`1`
+            	&includeTVList=`image,article,diam,width,manufacturer,season,thorms,price`
+            	&limit=`3`
+            	&tpl=`product`
+            ]]
+            <div class="col-lg-12"><ul class="pagination">[[+page.nav]]</ul></div>
+        </div>
+        
+        <!--
+        <div class="row">
+            [[!getProducts?
+            	&parents=`2`
+            	&includeTVs=`1`
+            	&includeTVList=`image,article,diam,width,manufacturer,season,thorms,price`
+            	&limit=`10`
+            	&tpl=`product`
+            	&where=`template:2`
+            ]]
+        </div>
+        -->
+    </div>
+</body>
+</html>
